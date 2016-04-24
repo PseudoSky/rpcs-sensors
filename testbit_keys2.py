@@ -183,8 +183,8 @@ for i in range(DayCount,-1,-1):
   steps = dict1.replace("'", "")
   #steps_dict[DateForAPI] = int(dict1)
   
-  hr_rate = { "sensor_id": "resting-heart-rate", "value": str(rest_hr) }
-  steps_count = { "sensor_id": "steps", "value": str(steps) }
+  hr_rate = {"user_id": "571b97467391f8524f9d96fc", "sensor_id": "resting-heart-rate", "value": str(rest_hr) }
+  steps_count = {"user_id": "571b97467391f8524f9d96fc", "sensor_id": "steps", "value": str(steps) }
 
   print  hr_rate
   print steps_count

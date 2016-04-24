@@ -36,7 +36,8 @@ for addr, name in devices.items():
 		if(data=="00" and prevData=="01"):
 		    print("Box is open")
 		    val = {
-                        "sensor_id": "pillbox",
+                        "user_id": "571b97467391f8524f9d96fc",
+		        "sensor_id": "pillbox",
                         "value": 0
                     }
 		    post(host, val)
